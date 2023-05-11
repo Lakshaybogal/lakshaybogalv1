@@ -1,0 +1,51 @@
+
+.About{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:89rem;
+    left: 6rem;
+}
+.about-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.title-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-line{
+    border-top: 1px solid var(--primary);
+    width: 60vw;
+
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+.about-content{
+    text-align: left;
+   inline-size: 44rem;
+}
+
+@media screen and (max-width: 885px) {
+    .About {
+        top: 116rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .About {
+        left: 7vw;
+        top: 196rem;
+    }
+    .about-content{
+        text-align: left;
+       inline-size: 21rem;
+    }
+}
